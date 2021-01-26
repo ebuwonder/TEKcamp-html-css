@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="index.css" rel="stylesheet" type="text/css" media="all">
     <title>Contact</title>
 </head>
 <body>
-    
-</body>
+    <div>
+        <header>
+            <nav>
+                <a href="index.html">HOME</a> |
+                <a href="gallery.html">GALLERY</a> |
+                <a href="contact.html">CONTACT US</a>
+            </nav>
+        </header>
+    </div>
+        <div>
+            <h1>LET'S GET TOGETHER</h1>
+        </div>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Name</label>
+          <input type="text" id="flname" name="flname" placeholder="What yo mama call you?">
+      
+          <label for="lname">Email</label>
+          <input type="text" id="Email" name="email" placeholder="Where can I email your back?">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            
+            
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="What's on your mind.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div></body>
 </html>
